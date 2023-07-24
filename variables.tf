@@ -42,18 +42,18 @@ variable "instance_class" {
 }
 
 variable "rds_name" {
-  default     = "kolwezidb"
+  default     = "mydb"
   description = "db name"
 }
 
 variable "rds_username" {
-  default     = "gauthier"
+  default     = "username"
   description = "User name"
 }
 
 variable "rds_password" {
   description = "RDS root user password"
-  default = "kolweziYetu"
+  default = ""
   sensitive   = true
 }
 variable "subnet_1_cidr" {
